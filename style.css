@@ -1,0 +1,129 @@
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}	
+
+
+.section {
+	padding: 100px 100px;
+	position: relative;
+  }
+
+.line {
+	border-bottom: 1px solid rgb(255, 255, 255);
+	padding-top: 6px;
+	position: static;
+  }  
+
+.bg-gradiant{
+	height: 100%;
+	width: 100%;
+	background-image:linear-gradient(45deg,black,rgb(36, 24, 24));
+	color: aliceblue;
+}
+.rgb-clr{
+	background: linear-gradient(90deg,#00dbde,#fc0000);
+	-webkit-background-clip: text;
+	font-size: lar;
+	-webkit-text-fill-color: transparent;
+}
+
+.stop{
+	position: sticky;
+	top: 120px;
+}
+
+.main{
+	position: fixed;
+	top: 0mm;
+	left: 0mm;
+	width: 100%;
+	backdrop-filter: saturate(180%) blur(20px);
+	z-index: 111;
+}
+.one{
+	margin-top: 5rem;
+}
+.bold{
+	font-weight: bolder
+}
+
+
+.about-img{
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+  }
+
+.img-box{
+content: "";
+display: inline-block;
+vertical-align: top;
+}
+img{
+	max-width: 100%;
+}
+
+.about-text{
+	padding-left: 100px;
+}
+.about-row{
+	margin-bottom: 80px;
+}
+.service-clr{
+	color: #00dbde;
+}
+.box-clr{
+	background-image: linear-gradient(90deg,black,darkred,black);
+	color: #00dbde;
+}
+.future-box{
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.04);
+	border-radius: 15px;
+	padding: 35px 25px;
+	margin-top: 37px;
+}
+	
+.future-box:hover, .future-box:active {margin-top: 10px;
+transition-duration: 1s;}
+
+.future-box-2{
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.04);
+	border-radius: 15px;
+	padding: 35px 25px;
+}
+
+.future-box-3{
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	background: rgba(255, 255, 255, 0.04);
+	padding-top:20px ;
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background:black;
+	color: white;
+	border: 1px solid #ccc;
+	padding: 12px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #2d322d;
+  }
